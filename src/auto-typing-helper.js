@@ -5,7 +5,11 @@ const AutoTypingHelper = () => {
     <p>
       <Typewriter
         options={{
-          strings: ["Software Engineer", "Data Scientist", "Student"],
+          strings: [
+            "Software Engineer",
+            "Data Scientist",
+            "Frontend Developer",
+          ],
           autoStart: true,
           loop: true,
           delay: 80,

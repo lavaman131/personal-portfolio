@@ -7,7 +7,7 @@ const SideBar = () => {
     <div
       className="fixed top-0 left-0 h-screen w-20 m-0
                         flex flex-col
-                        bg-dark_blue shadow-lg"
+                        bg-green-900 shadow-lg"
     >
       <SideBarIcon icon={<AiFillHome size="28" />} text={"Home"} />
       <SideBarIcon icon={<FaFileCode size="28" />} text={"Projects"} />
