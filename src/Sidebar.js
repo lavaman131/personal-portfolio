@@ -4,14 +4,15 @@ import { FaFileCode } from "react-icons/fa";
 
 const SideBar = () => {
   return (
-    <div
-      className="fixed top-0 left-0 h-screen w-20 m-0
-                        flex flex-col
-                        bg-green-900 shadow-lg"
-    >
-      <SideBarIcon icon={<AiFillHome size="28" />} text={"Home"} />
-      <SideBarIcon icon={<FaFileCode size="28" />} text={"Projects"} />
-      <SideBarIcon icon={<IoMdContact size="28" />} text={"Contact Me"} />
+    <div className="relative flex flex-row w-screen items-center justify-center">
+      <div
+        className="inset-x-0 h-20 w-full m-0 items-center justify-center fixed top-0
+                  flex flex-row bg-gradient-to-r from-blue-600 via-fuchsia-500 to-red-600 shadow-lg"
+      >
+        <SideBarIcon icon={<AiFillHome size="28" />} text={"Home"} />
+        <SideBarIcon icon={<FaFileCode size="28" />} text={"Projects"} />
+        <SideBarIcon icon={<IoMdContact size="28" />} text={"Contact Me"} />
+      </div>
     </div>
   );
 };

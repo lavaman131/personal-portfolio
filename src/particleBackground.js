@@ -22,9 +22,8 @@ const ParticleBackground = () => {
       loaded={particlesLoaded}
       options={{
         background: {
-          color: {
-            value: "#006400",
-          },
+          image:
+            "url('https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80')",
         },
         fpsLimit: 60,
         pauseOnBlur: true,
@@ -57,7 +56,7 @@ const ParticleBackground = () => {
           links: {
             color: "#ffffff",
             distance: 150,
-            enable: false,
+            enable: true,
             opacity: 0.5,
             width: 1,
           },
@@ -85,18 +84,21 @@ const ParticleBackground = () => {
             value: 0.5,
           },
           shape: {
-            type: ["character", "image"],
-            character: {
-              value: "0", // the text to use as particles, any string is valid, for escaping unicode char use the `\uXXXX` syntax
-              font: "Verdana", // the font to use to draw the text. If the font needs an external css or javascript like FontAwesome you should include all the necessary files on your own
-              style: "", // any additional css style to add to the text
-              weight: "", // the css weight property, some fonts like font awesome have a specified weight, check the documentation if needed
+            type: ["polygon"],
+            polygon: {
+              sides: 10, // the number of sides of the polygon
             },
-            image: {
-              src: "https://www.freepnglogos.com/uploads/1-number-png/1-number-classic-font-style-13.png",
-              width: 10,
-              height: 10,
-            },
+            // character: {
+            //   value: "0", // the text to use as particles, any string is valid, for escaping unicode char use the `\uXXXX` syntax
+            //   font: "Verdana", // the font to use to draw the text. If the font needs an external css or javascript like FontAwesome you should include all the necessary files on your own
+            //   style: "", // any additional css style to add to the text
+            //   weight: "", // the css weight property, some fonts like font awesome have a specified weight, check the documentation if needed
+            // },
+            // image: {
+            //   src: "https://www.freepnglogos.com/uploads/1-number-png/1-number-classic-font-style-13.png",
+            //   width: 10,
+            //   height: 10,
+            // },
           },
           size: {
             value: 15,

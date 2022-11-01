@@ -22,6 +22,17 @@ module.exports = {
         sky_blue: "#4895EF",
         teal: "#4CC9F0",
         light_green: "#06D6A0",
+        creamy_white: "rgb(250, 242, 225)",
+        red_orange: "#FF4500",
+        code_block: "rgb(32, 41, 58)",
+      },
+      backgroundImage: {
+        waves_1: "url('./imgs/waves_1.jpg')",
+        waves_2: "url('./imgs/waves_2.jpg')",
+        waves_3: "url('./imgs/waves_3.jpg')",
+      },
+      fontFamily: {
+        code_font: ["Source Code Pro"],
       },
     },
   },
