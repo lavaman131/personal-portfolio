@@ -135,11 +135,11 @@ function App() {
             <div className="my-3 font-extrabold font-baskerville bg-clip-text text-slate-300 text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
               <AutoTypingHelper></AutoTypingHelper>
             </div>
-            <div className="bg-med_blue rounded-lg flex flex-col gap-2 m-10">
-              <div className="font-baskerville text-slate-300 mx-16 mt-4">
+            <div className="bg-med_blue rounded-lg flex flex-col gap-2 m-10 justify-center">
+              <div className="font-baskerville text-slate-300 mx-6 mt-2">
                 Programming Languages:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-16">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                   className="w-8 h-8"
@@ -166,100 +166,100 @@ function App() {
                   className="w-8 h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-16">
+              <div className="font-baskerville text-slate-300 mx-6">
                 Data Science Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-16">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://raw.githubusercontent.com/valohai/ml-logos/master/scipy.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/0/01/Created_with_Matplotlib-logo.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/seaborn-icon.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-16">
+              <div className="font-baskerville text-slate-300 mx-6">
                 Frontend Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-16">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-16">
+              <div className="font-baskerville text-slate-300 mx-6">
                 Backend Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-16">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-16">
+              <div className="font-baskerville text-slate-300 mx-6">
                 Miscellaneous Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-16 mb-2">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6 mb-2">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
                 <img
                   src="https://www.vectorlogo.zone/logos/markdown-here/markdown-here-icon.svg"
-                  className="w-8 h-8"
+                  className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
             </div>
