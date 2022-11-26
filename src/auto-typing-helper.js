@@ -8,7 +8,7 @@ const AutoTypingHelper = () => {
           strings: [
             "Software Engineer",
             "Data Scientist",
-            "Frontend Developer",
+            "Researcher",
           ],
           autoStart: true,
           loop: true,

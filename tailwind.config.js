@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       screens: {
         sm: "640px",
-        md: "768px",
+        md: "824px",
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
@@ -24,8 +24,8 @@ module.exports = {
         dark_purple: "#560BAD",
         midnight_purple: "#480CA8",
         indigo: "#3A0CA3",
-        dark_blue: "#3F37C9",
-        med_blue: "#4361EE",
+        dark_blue: "rgb(15, 8, 150)",
+        med_blue: "rgb(43, 62, 206)",
         sky_blue: "#4895EF",
         teal: "#4CC9F0",
         light_green: "#06D6A0",
@@ -40,6 +40,7 @@ module.exports = {
       },
       fontFamily: {
         code_font: ["Source Code Pro"],
+        baskerville: ["Libre Baskerville", "serif"],
       },
     },
   },
