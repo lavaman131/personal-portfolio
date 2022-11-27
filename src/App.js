@@ -33,7 +33,7 @@ function App() {
                 </div>
                 <div className="hidden md:flex items-center space-x-1">
                   <a
-                    href="#"
+                    href="https://github.com/lavaman131"
                     className="py-5 px-3 font-baskerville text-slate-300 hover:text-gray-400"
                   >
                     Projects
@@ -43,7 +43,7 @@ function App() {
 
               <div className="hidden md:flex items-center space-x-1">
                 <a
-                  href="#"
+                  href="mailto:lavaalex3@gmail.com"
                   className="py-5 px-3 font-baskerville text-slate-300 hover:text-gray-400"
                 >
                   Contact
@@ -72,13 +72,13 @@ function App() {
           </div>
           <div className="mobile-menu hidden md:hidden">
             <a
-              href="#a"
+              href="https://github.com/lavaman131"
               className="block py-2 px-3 text-sm font-baskerville text-slate-300 hover:bg-med_blue"
             >
               Projects
             </a>
             <a
-              href="#"
+              href="mailto:lavaalex3@gmail.com"
               className="block py-2 px-3 text-sm font-baskerville text-slate-300 hover:bg-med_blue"
             >
               Contact
