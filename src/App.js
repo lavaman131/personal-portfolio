@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <div className="flex flex-col flex-auto">
-        <nav className="bg-dark_blue bg-opacity-95">
+        <nav className="bg-med_blue bg-opacity-90">
           <div className="flex-initial max-w-7xl mx-auto px-4">
             <div className="flex justify-between">
               <div className="flex space-x-4">
@@ -25,7 +25,7 @@ function App() {
                     href="#"
                     className="flex items-center py-4 px-2 text-slate-300 hover:text-gray-400"
                   >
-                    <img src={logo} alt="logo" className="h-8 w-8 mr-1"></img>
+                    <img src={logo} alt="logo" className="h-8 w-8 mr-2"></img>
                     <span className="font-bold font-baskerville">
                       Alex Lavaee
                     </span>
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className="mobile-menu hidden md:hidden">
             <a
-              href="#"
+              href="#a"
               className="block py-2 px-3 text-sm font-baskerville text-slate-300 hover:bg-med_blue"
             >
               Projects
@@ -136,10 +136,10 @@ function App() {
               <AutoTypingHelper></AutoTypingHelper>
             </div>
             <div className="bg-med_blue rounded-lg flex flex-col gap-2 m-10 justify-center">
-              <div className="font-baskerville text-slate-300 mx-6 mt-2">
+              <div className="font-baskerville text-slate-300 mx-10 mt-2">
                 Programming Languages:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-10">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                   className="w-8 h-8"
@@ -166,10 +166,10 @@ function App() {
                   className="w-8 h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-6">
+              <div className="font-baskerville text-slate-300 mx-10">
                 Data Science Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-10">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
                   className="w-6 h-6 lg:w-8 lg:h-8"
@@ -207,10 +207,10 @@ function App() {
                   className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-6">
+              <div className="font-baskerville text-slate-300 mx-10">
                 Frontend Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-10">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
                   className="w-6 h-6 lg:w-8 lg:h-8"
@@ -220,10 +220,10 @@ function App() {
                   className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-6">
+              <div className="font-baskerville text-slate-300 mx-10">
                 Backend Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-10">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
                   className="w-6 h-6 lg:w-8 lg:h-8"
@@ -245,10 +245,10 @@ function App() {
                   className="w-6 h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <div className="font-baskerville text-slate-300 mx-6">
+              <div className="font-baskerville text-slate-300 mx-10">
                 Miscellaneous Tools:
               </div>
-              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-6 mb-2">
+              <div className="font-baskerville text-slate-300 flex items-center space-x-2 mx-10 mb-2">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                   className="w-6 h-6 lg:w-8 lg:h-8"
